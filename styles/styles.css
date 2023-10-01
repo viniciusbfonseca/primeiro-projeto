@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+
+.conteudo_images {
+    height: 88vh;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    margin: auto;
+    
+    
+   
+}
+
+.conteudo {
+    background-color: black;
+    height: 26vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    gap: 20px;
+}
+
+.cabecalho {
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.96rem;
+    text-align: center;
+
+}
+
+.data {
+    font-size: 0.5rem;
+    color: beige;
+}
+
+
+.cabecalho1 {
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.87rem;
+    padding: 0% 0% 0% 5%;
+    text-decoration: none;
+    
+}
+
+
+.biografia {
+    color: red;
+    
+}
+
+.texto {
+    display: flex;
+    color: rebeccapurple;
+    flex-direction: column;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+
+.rodape {
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.link {
+    color:bisque;
+}
+
+.cabecalho_titulo:hover {
+    color:blue;
+}
+
+.rodape:hover {
+    color: blue;
+}
+
+.home:hover {
+    color: blue;
+}
+
+.link:hover {
+    color: red;
+}
+
+.sobremim {
+    text-decoration: none;
+    color: black;
+}
+
+.sobremim:hover {
+    color: blue;
+}
+
+.conteudo_sobremim {
+    background-color: black;
+    color: red;
+    box-sizing: border-box;
+    padding: 12.4%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 13px;
+}
+
+
+.conteudo_sobre {
+    background-color: black;
+    color: red;
+    box-sizing: border-box;
+    padding: 22%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 13px;
+}
+
+.conteudo_sobre1 {
+    background-color: black;
+    color: red;
+    box-sizing: border-box;
+    padding: 23%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 13px;
+}
+
+
+.foto_sobremim {
+    width: 50%;
+}
+
+.images {
+    width: 100%;
+}
+
+@media (max-width: 733px){
+    .conteudo_sobremim {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 421px){
+    .conteudo_sobre {
+        flex-direction: column;
+    }
+
+    .conteudo_sobre1 {
+        flex-direction: column;
+    }
+
+    .conteudo_sobre2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo_sobre3 {
+        flex-direction: column;
+    }
+
+
+    
+   
+
+}
+
+
+
+.conteudo_sobre2 {
+    background-color: black;
+    color: red;
+    box-sizing: border-box;
+    padding: 21.6%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.conteudo_sobre3 {
+    background-color: black;
+    color: red;
+    box-sizing: border-box;
+    padding: 3.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 13px;
+}
+
+
+
